@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { UseState } from './components/UseState';
 import { ClassState } from './components/ClassState';
@@ -6,9 +5,9 @@ import { ClassState } from './components/ClassState';
 function App() {
   return (
     <div className="App">
-      <UseState />
+      <UseState name = {"Use State"}/>
       <hr />
-      <ClassState />
+      <ClassState name = {"Use Class"} />
     </div>
   );
 }
