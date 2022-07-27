@@ -26,7 +26,7 @@ function UseState ({name}) {
             {!!loading && <p>Loading ...</p>}
             {error && <p>Error: Codigo incorrecto</p>}
             <input  type='text' placeholder="Codigo"/>
-            <button onClick={() => {setLoading(prevLoading => !prevLoading)}}>Comprobar</button>
+            <button onClick={() => {setLoading(true)}} disabled={loading}>Comprobar</button>
         </div>
     );
 }
